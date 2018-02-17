@@ -7,10 +7,18 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Provides a simple abstraction over logging frameworks, which allows the logging framework to be swapped without requiring changes of application code. This package is for creating an empty logger with no output.</Description>
     <PackageTags>logging logging-abstraction logging-framework</PackageTags>
+    <PackageProjectUrl>https://github.com/lloydjatkinson/log-wrap</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lloydjatkinson/log-wrap</RepositoryUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>bin\Debug\netstandard2.0\LogWrap.Empty.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\LogWrap.Empty.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
