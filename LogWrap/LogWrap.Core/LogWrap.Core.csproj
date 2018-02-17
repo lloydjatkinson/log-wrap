@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Lloyd J. Atkinson</Authors>
+    <Company>Lloyd J. Atkinson</Company>
+    <Product>LogWrap.Core</Product>
+    <Description>Provides a simple abstraction over logging frameworks, which allows the logging framework to be swapped without requiring changes of application code.</Description>
+    <PackageTags>logging logging-abstraction logging-framework</PackageTags>
+  </PropertyGroup>
+
+</Project>
