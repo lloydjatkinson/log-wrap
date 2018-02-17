@@ -9,6 +9,10 @@
     <Description>Provides a simple abstraction over logging frameworks, which allows the logging framework to be swapped without requiring changes of application code. This package is for use with NLog.</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\LogWrap.NLog.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.5.0-rc05" />
     <PackageReference Include="NLog.Schema" Version="4.5.0-rc05" />

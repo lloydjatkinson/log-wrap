@@ -9,6 +9,10 @@
     <PackageTags>logging logging-abstraction logging-framework</PackageTags>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\LogWrap.Empty.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\LogWrap.Core\LogWrap.Core.csproj" />
   </ItemGroup>

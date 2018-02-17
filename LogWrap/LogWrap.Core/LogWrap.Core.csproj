@@ -10,4 +10,8 @@
     <PackageTags>logging logging-abstraction logging-framework</PackageTags>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\LogWrap.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
